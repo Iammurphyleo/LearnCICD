@@ -12,6 +12,9 @@ using System.IO;
 using static System.Net.Mime.MediaTypeNames;
 using System.Net.Sockets;
 using System.Numerics;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.Options;
 
 namespace LearnCICD.note
 {
@@ -110,5 +113,22 @@ namespace LearnCICD.note
         //Example: GitHub Actions CI/CD Pipeline (YAML)
 
         //You can test all these CI/CD pipelines on your local machine before deploying them to cloud services. Here’s how to set up and run each pipeline locally:
+
+
+        //Steps to Set Up Your Docker Token
+        //1. Go to Docker Hub
+
+/*          .Open Docker Hub
+            .Navigate to Account Settings → Security
+            .Click New Access Token and generate a new token.
+
+           2. Store Token in GitHub Secrets
+
+            .Go to your GitHub repository → Settings → Secrets and variables → Actions
+            .Click New repository secret
+            Add:
+            DOCKER_USERNAME → Your Docker Hub username
+            DOCKER_TOKEN → The generated token
+            ** Push a Test Commit*/
     }
 }
