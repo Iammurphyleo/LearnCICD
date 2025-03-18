@@ -81,7 +81,7 @@ namespace LearnCICD.note
 
         //Each tool allows automated builds, testing, and deployment to staging or production environments.
 
-                //4️⃣ Setting Up CI/CD Pipelines
+        //4️⃣ Setting Up CI/CD Pipelines
         //A CI/CD pipeline is an automated sequence of processes that code changes go through before reaching production.
 
         //CI/CD Pipeline Stages
@@ -91,22 +91,24 @@ namespace LearnCICD.note
 
         //2. Build Stage
 
-         //Code is compiled and dependencies are installed.
+        //Code is compiled and dependencies are installed.
 
-       //Example: .NET build, npm install, docker build.
+        //Example: .NET build, npm install, docker build.
 
-       //3. Testing Stage
+        //3. Testing Stage
 
         //Unit tests, integration tests, and security scans are run.
 
-       //4. Deployment Stage
+        //4. Deployment Stage
 
-            //The application is deployed to staging/production environments.
+        //The application is deployed to staging/production environments.
 
-      //5. Monitoring & Alerts
+        //5. Monitoring & Alerts
 
-      //Performance monitoring tools check system health.
+        //Performance monitoring tools check system health.
 
-      //Example: GitHub Actions CI/CD Pipeline (YAML)
+        //Example: GitHub Actions CI/CD Pipeline (YAML)
+
+        //You can test all these CI/CD pipelines on your local machine before deploying them to cloud services. Here’s how to set up and run each pipeline locally:
     }
 }
