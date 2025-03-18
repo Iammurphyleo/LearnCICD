@@ -126,6 +126,7 @@ namespace LearnCICD.note
 
             .Go to your GitHub repository → Settings → Secrets and variables → Actions
             .Click New repository secret
+
             Add:
             DOCKER_USERNAME → Your Docker Hub username
             DOCKER_TOKEN → The generated token
