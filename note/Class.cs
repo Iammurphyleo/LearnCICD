@@ -118,7 +118,7 @@ namespace LearnCICD.note
         //Steps to Set Up Your Docker Token
         //1. Go to Docker Hub
 
-/*          .Open Docker Hub
+            /*  .Open Docker Hub
             .Navigate to Account Settings → Security
             .Click New Access Token and generate a new token.
 
