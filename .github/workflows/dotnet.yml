@@ -26,7 +26,7 @@ jobs: #setting the jobs, actions to be performed
     - name: Build #next action
       run: dotnet build --no-restore # this is the build command
     - name: Test # the next action is test, we add it if there is test in the project.test drivenprojet
-      run: dotnet test --no-build --verbosity normal # test command
+      run: dotnet test --no-build --verbosity normal # test commands
 
   docker-build-push:
     needs: build
